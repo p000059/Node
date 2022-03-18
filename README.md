@@ -32,6 +32,14 @@
             faz o download de módulos em uma pasta no projeto em node.js express
           </td>
         </tr>
+        <tr>
+          <td>
+            npm install nodemon -g
+          </td>
+          <td>
+            instala globalmente o nodemon na aplicação atualizando-a em cada alteração do código
+          </td>            
+        </tr>
       </tbody>
     </table>
   </div>
