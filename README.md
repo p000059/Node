@@ -3,7 +3,7 @@
 </head>
 <body>
   <div>
-    Arquivos feitos de NODE.js
+    Mostra arquivos feitos com o backend node.js
   </div>
 <body>
 </html>
