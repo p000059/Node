@@ -29,7 +29,7 @@
             npm install express --save
           </td>
           <td>
-            faz o download de módulos em uma pasta no projeto em node.js express
+            Faz o download de módulos em uma pasta no projeto em node.js express .
           </td>
         </tr>
         <tr>
@@ -37,8 +37,16 @@
             npm install nodemon -g
           </td>
           <td>
-            instala globalmente o nodemon na aplicação atualizando-a em cada alteração do código
+            Instala globalmente o nodemon na aplicação atualizando-a em cada alteração do código.
           </td>            
+        </tr>
+        <tr>
+          <td>
+            nodemon nomeDaAplicação
+          </td>
+          <td>
+            Executa a aplicação na porta em que o servidor foi configurado no código.
+          </td>
         </tr>
       </tbody>
     </table>
