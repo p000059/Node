@@ -3,7 +3,7 @@
 </head>
 <body>
   <div>
-  Mostra arquivos feitos com o backend node.js
+  Esse programa vai conter desde manipulações no banco de dados a roteamento de páginas utilizando o node.js .
   </div>
   <br/>
   <div>
@@ -47,6 +47,22 @@
           <td>
             Executa a aplicação na porta em que o servidor foi configurado no código.
           </td>
+        </tr>
+        <tr>
+          <td>
+            npm install --save sequelize
+          </td>
+          <td>
+            Instala um módulo de ORM do node.js para manipulação de bancos relacionais.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            npm install --save mysql
+          </td>
+            <td>
+              Instala o módulo mysql para manipulação do Node.js .
+            </td>
         </tr>
       </tbody>
     </table>
