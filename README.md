@@ -58,7 +58,7 @@
         </tr>
         <tr>
           <td>
-            npm install --save mysql
+            npm install --save mysql2
           </td>
             <td>
               Instala o módulo mysql para manipulação do Node.js .
