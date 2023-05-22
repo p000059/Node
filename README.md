@@ -64,6 +64,14 @@
               Instala o módulo mysql para manipulação do Node.js .
             </td>
         </tr>
+        <tr>
+          <td>
+            npm install --save mongoose
+          </td>
+            <td>
+              Instala o módulo mongoose .
+            </td>
+        </tr>
       </tbody>
     </table>
   </div>

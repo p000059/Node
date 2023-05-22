@@ -16,14 +16,14 @@ sequelize
   .catch((error) => errorConnect(error));
 
 function successfully() {
-  console.log("Connection has been established successfully.");
+  console.log(`Connection Successfully`);
 }
 
 function errorConnect(error) {
   console.log(`Connection Error => ${error}`);
 }
 
-const frequency = sequelize.define("frequency", {
+const frequency = sequelize.define("frequencies", {
   presence: {
     type: Sequelize.STRING,
   },
@@ -32,9 +32,34 @@ const frequency = sequelize.define("frequency", {
   },
 });
 
-frequency.create({
-  presence: "true",
-  absence: "false",
+/* frequency.create({
+  presence: 'ok',
+  absence: 'fault'
+}) */
+
+/* frequency.create({
+  presence: 'registered',
+  absence: 'empty'
+}) */
+
+//frequency.sync({ force: true });
+
+const user = sequelize.define("users", {
+  codeUser: {
+    type: Sequelize.STRING,
+  },
 });
 
-frequency.sync({ force: true });
+//user.sync({force: true})
+
+/* const Postagem = sequelize.define('postagens', {
+  titulo: {
+    type: Sequelize.STRING,
+  },
+  conteudo: {
+    type: Sequelize.STRING,
+  },
+});
+
+Postagem.sync({ force: true });
+ */
